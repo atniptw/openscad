@@ -1,0 +1,14 @@
+{
+  "name": "OpenSCAD",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // Mount the workspace to /openscad, matching the image's WORKDIR
+  "workspaceMount": "source=${localWorkspaceFolder},target=/openscad,type=bind",
+  "workspaceFolder": "/openscad",
+  // The dev image has built-in EGL support; setting this env var ensures
+  // headless rendering also works via software Mesa as a fallback.
+  "remoteEnv": {
+    "LIBGL_ALWAYS_SOFTWARE": "1"
+  }
+}
