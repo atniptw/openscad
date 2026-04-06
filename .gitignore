@@ -1,0 +1,19 @@
+# Rendered output files
+*.stl
+*.amf
+*.3mf
+*.dxf
+*.svg
+*.png
+
+# OpenSCAD cache/temp files
+*.cache
+
+# Editor files
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
