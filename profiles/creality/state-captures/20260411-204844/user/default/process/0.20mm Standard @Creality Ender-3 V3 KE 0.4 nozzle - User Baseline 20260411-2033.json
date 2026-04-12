@@ -1,0 +1,9 @@
+{
+  "base_id": "GP004",
+  "from": "User",
+  "inherits": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+  "is_custom_defined": "0",
+  "name": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033",
+  "print_settings_id": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033",
+  "version": ""
+}

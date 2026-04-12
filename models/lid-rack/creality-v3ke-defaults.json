@@ -1,0 +1,104 @@
+{
+  "source": {
+    "vendor": "Creality Print",
+    "version_dir": "7.0",
+    "captured_on": "2026-04-11",
+    "machine_profile": "Creality Ender-3 V3 KE 0.4 nozzle",
+    "default_print_profile": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+    "default_filament_profile": "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle"
+  },
+  "machine": {
+    "build_volume_mm": {
+      "x": 220,
+      "y": 220,
+      "z": 240
+    },
+    "nozzle_diameter_mm": 0.4,
+    "layer_height_limits_mm": {
+      "min": 0.08,
+      "max": 0.36
+    },
+    "max_speed_mm_s": {
+      "x": 500,
+      "y": 500,
+      "z": 30,
+      "e": 100
+    },
+    "max_accel_mm_s2": {
+      "x": 8000,
+      "y": 8000,
+      "z": 500,
+      "e": 5000
+    },
+    "max_jerk_mm_s": {
+      "x": 12,
+      "y": 12,
+      "z": 0.4,
+      "e": 5
+    },
+    "retraction": {
+      "length_mm": 0.8,
+      "speed_mm_s": 30,
+      "deretraction_speed_mm_s": 30,
+      "minimum_travel_mm": 2,
+      "z_hop_mm": 0.2,
+      "z_hop_type": "Slope Lift",
+      "retract_before_wipe_percent": 70,
+      "wipe_enabled": true,
+      "wipe_distance_mm": 1,
+      "use_firmware_retraction": false
+    }
+  },
+  "process_0_20_standard": {
+    "layer_height_mm": 0.2,
+    "line_width_mm": 0.45,
+    "walls": 2,
+    "top_shell_layers": 4,
+    "bottom_shell_layers": 4,
+    "infill": {
+      "density": "15%",
+      "pattern": "zig-zag"
+    },
+    "speeds_mm_s": {
+      "outer_wall": 200,
+      "inner_wall": 300,
+      "top_surface": 200,
+      "initial_layer": 50,
+      "travel": 300,
+      "sparse_infill": 270,
+      "bridge": 50
+    },
+    "acceleration_mm_s2": {
+      "outer_wall": 2000,
+      "inner_wall": 5000
+    },
+    "bridge_flow_ratio": 0.95,
+    "seam_position": "aligned",
+    "support": {
+      "enabled": false,
+      "type": "normal(auto)"
+    },
+    "brim": {
+      "type": "auto_brim",
+      "width_mm": 0
+    },
+    "ironing": "no ironing"
+  },
+  "filament_hyper_pla": {
+    "type": "PLA",
+    "nozzle_temp_c": {
+      "normal": 220,
+      "first_layer": 220
+    },
+    "max_volumetric_speed_mm3_s": 23,
+    "fan_percent": {
+      "min": 100,
+      "max": 100
+    }
+  },
+  "notes": [
+    "Many values are inherited through profile chains and have been resolved where present.",
+    "Bed temperature is not explicitly set in these three linked defaults and may be material/plate dependent at runtime.",
+    "User profile copy exists but currently has no overrides (all null values)."
+  ]
+}

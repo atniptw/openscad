@@ -1,0 +1,11 @@
+{
+  "base_id": "GP004",
+  "from": "User",
+  "inherits": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+  "is_custom_defined": "1",
+  "name": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - Visible Test 20260411-2038",
+  "print_settings_id": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - Visible Test 20260411-2038",
+  "version": "",
+  "outer_wall_speed": "180",
+  "layer_height": "0.22"
+}

@@ -1,0 +1,9 @@
+{
+    "base_id": "GP004",
+    "from": "User",
+    "inherits": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "User Preset Test",
+    "print_settings_id": "User Preset Test",
+    "version": "26.3.30.17"
+}

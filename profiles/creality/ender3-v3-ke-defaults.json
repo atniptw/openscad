@@ -1,0 +1,101 @@
+{
+  "source": {
+    "vendor": "Creality Print",
+    "version_dir": "7.0",
+    "captured_on": "2026-04-11",
+    "machine_profile": "Creality Ender-3 V3 KE 0.4 nozzle",
+    "default_print_profile": "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+    "default_filament_profile": "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle",
+    "chains": {
+      "machine": [
+        "Creality Ender-3 V3 KE 0.4 nozzle",
+        "fdm_creality_common",
+        "fdm_machine_common"
+      ],
+      "process": [
+        "0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle",
+        "fdm_process_creality_common",
+        "fdm_process_common"
+      ],
+      "filament": [
+        "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle",
+        "fdm_filament_pla",
+        "fdm_filament_common"
+      ]
+    }
+  },
+  "machine": {
+    "printable_area": "0x0,220x0,220x220,0x220",
+    "printable_height": "240",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "min_layer_height": "0.08",
+    "max_layer_height": "0.36",
+    "machine_max_speed_x": "500",
+    "machine_max_speed_y": "500",
+    "machine_max_speed_z": "30",
+    "machine_max_speed_e": "100",
+    "machine_max_acceleration_x": "8000",
+    "machine_max_acceleration_y": "8000",
+    "machine_max_acceleration_z": "500",
+    "machine_max_acceleration_e": "5000",
+    "machine_max_jerk_x": "12",
+    "machine_max_jerk_y": "12",
+    "machine_max_jerk_z": "0.4",
+    "machine_max_jerk_e": "5",
+    "retraction_length": "0.8",
+    "retraction_speed": "30",
+    "deretraction_speed": "30",
+    "retraction_minimum_travel": "2",
+    "z_hop": "0.2",
+    "z_hop_types": "Slope Lift",
+    "wipe": "1",
+    "wipe_distance": "1",
+    "retract_before_wipe": "70"
+  },
+  "process": {
+    "layer_height": "0.2",
+    "initial_layer_print_height": "0.2",
+    "line_width": "0.45",
+    "wall_loops": "2",
+    "top_shell_layers": "4",
+    "bottom_shell_layers": "4",
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "zig-zag",
+    "outer_wall_speed": "200",
+    "inner_wall_speed": "300",
+    "top_surface_speed": "200",
+    "initial_layer_speed": "50",
+    "travel_speed": "300",
+    "sparse_infill_speed": "270",
+    "outer_wall_acceleration": "2000",
+    "inner_wall_acceleration": "5000",
+    "bridge_speed": "50",
+    "bridge_flow": "0.95",
+    "enable_support": "0",
+    "support_type": "normal(auto)",
+    "brim_type": "auto_brim",
+    "brim_width": "0",
+    "seam_position": "aligned",
+    "ironing_type": "no ironing"
+  },
+  "filament": {
+    "filament_type": [
+      "PLA"
+    ],
+    "nozzle_temperature": "220",
+    "nozzle_temperature_initial_layer": "220",
+    "filament_max_volumetric_speed": "23",
+    "fan_min_speed": "100",
+    "fan_max_speed": "100",
+    "cool_plate_temp": "50",
+    "cool_plate_temp_initial_layer": "50",
+    "eng_plate_temp": "50",
+    "eng_plate_temp_initial_layer": "50",
+    "hot_plate_temp": "50",
+    "hot_plate_temp_initial_layer": "50",
+    "textured_plate_temp": "50",
+    "textured_plate_temp_initial_layer": "50"
+  }
+}

@@ -51,3 +51,41 @@ Override parameters from the command line:
 ```bash
 openscad -D "cable_diameter=8" -o out.stl models/cable-clip/cable-clip.scad
 ```
+
+## Creality Defaults and User Presets
+
+Use the helper script to extract effective default machine/process/filament settings from Creality Print and create new User preset files:
+
+```bash
+./scripts/creality_presets.py \
+    --apply \
+    --snapshot-out profiles/creality/ender3-v3-ke-defaults.json \
+    --preset-suffix "User Baseline"
+```
+
+Notes:
+- Without `--apply`, the script runs in dry-run mode.
+- By default it targets profile version `7.0` and machine `Creality Ender-3 V3 KE 0.4 nozzle`.
+- It writes User presets to Creality's `user/default/{machine,process,filament}` directories.
+
+To create a preset that is clearly visible in dropdowns, add at least one override and mark it custom-defined:
+
+```bash
+./scripts/creality_presets.py \
+    --apply \
+    --custom-defined \
+    --create-process \
+    --preset-suffix "Visible Test" \
+    --process-override outer_wall_speed=180
+```
+
+To create and immediately select the generated preset in Creality Print:
+
+```bash
+./scripts/creality_presets.py \
+    --apply \
+    --create-process \
+    --preset-suffix "Auto Select" \
+    --process-override outer_wall_speed=165 \
+    --select-created
+```

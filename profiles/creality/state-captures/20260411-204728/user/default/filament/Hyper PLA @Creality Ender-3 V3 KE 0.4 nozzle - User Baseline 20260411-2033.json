@@ -1,0 +1,9 @@
+{
+  "base_id": "GFSA04",
+  "from": "User",
+  "inherits": "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle",
+  "is_custom_defined": "0",
+  "name": "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033",
+  "filament_settings_id": "Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033",
+  "filament_id": "01001"
+}

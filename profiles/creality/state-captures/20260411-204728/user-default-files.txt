@@ -1,0 +1,8 @@
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/filament/Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.info
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/filament/Hyper PLA @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.json
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/machine/Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.info
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/machine/Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.json
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/process/0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.info
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/process/0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - User Baseline 20260411-2033.json
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/process/0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - Visible Test 20260411-2038.info
+/Users/tom/Library/Application Support/Creality/Creality Print/7.0/user/default/process/0.20mm Standard @Creality Ender-3 V3 KE 0.4 nozzle - Visible Test 20260411-2038.json
