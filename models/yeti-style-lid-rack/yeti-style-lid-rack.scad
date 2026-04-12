@@ -1,11 +1,11 @@
-// Water bottle lid rack — kitchen cabinet organiser
-// Holds wide-mouth lids (Nalgene / Hydro Flask style) standing on edge,
+// Yeti-style water bottle lid rack — kitchen cabinet organiser
+// Holds wide-mouth lids (Yeti / Hydro Flask style) standing on edge,
 // dish-rack style.  Slots are open front AND back; a cylindrical cradle
 // groove at the base of each slot keeps the round lid rim from rolling.
 //
 // Usage:
-//   openscad -o lid-rack.stl lid-rack.scad
-//   openscad -D "n_lids=4" -o lid-rack-4.stl lid-rack.scad
+//   openscad -o yeti-style-lid-rack.stl yeti-style-lid-rack.scad
+//   openscad -D "n_lids=4" -o yeti-style-lid-rack-4.stl yeti-style-lid-rack.scad
 
 include <../../common/utils.scad>
 
