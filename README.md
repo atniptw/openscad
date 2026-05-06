@@ -8,7 +8,8 @@ A collection of parametric 3D models designed for FDM printing, built with [Open
 ├── common/          # Shared variables and utilities (include in your models)
 └── models/
     ├── _template/   # Copy this to start a new model
-    └── cable-clip/  # Example: desk cable clip
+    ├── cable-clip/  # Desk cable clip
+    └── lid-rack/    # Kitchen cabinet water bottle lid organiser
 ```
 
 ## Creating a new model
@@ -29,6 +30,13 @@ Preview in the GUI:
 
 ```bash
 openscad models/cable-clip/cable-clip.scad
+```
+
+Render a PNG without a display (headless / CI):
+
+```bash
+LIBGL_ALWAYS_SOFTWARE=1 openscad --render --imgsize=800,600 --autocenter --viewall --colorscheme=Tomorrow \
+  -o models/cable-clip/cable-clip.png models/cable-clip/cable-clip.scad
 ```
 
 Export to STL for slicing:
