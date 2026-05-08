@@ -8,8 +8,9 @@ A collection of parametric 3D models designed for FDM printing, built with [Open
 ├── common/          # Shared variables and utilities (include in your models)
 └── models/
     ├── _template/   # Copy this to start a new model
-    ├── cable-clip/  # Desk cable clip
-    └── lid-rack/    # Kitchen cabinet water bottle lid organiser
+    ├── cable-clip/   # Desk cable clip
+    ├── lid-rack/     # Kitchen cabinet water bottle lid organiser
+    └── ramp-railing/ # Modular side railing for a dog ramp
 ```
 
 ## Creating a new model
